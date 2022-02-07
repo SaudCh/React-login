@@ -1,0 +1,8 @@
+.box-contianer {
+    background-image: url('../Images/books.jpg');
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    filter: blur(8px);
+
+}

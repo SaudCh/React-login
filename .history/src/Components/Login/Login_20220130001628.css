@@ -1,0 +1,20 @@
+.background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/books.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.background-text {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-input {
+    background-color: black;
+}

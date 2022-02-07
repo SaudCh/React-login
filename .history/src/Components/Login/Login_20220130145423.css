@@ -1,0 +1,29 @@
+.background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/books.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.background-text {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:hover,
+input:active,
+input:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.hlo {
+  display: none;
+}

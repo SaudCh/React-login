@@ -1,0 +1,42 @@
+.background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/books.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.background-text {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: inherit;
+  z-index: 1;
+}
+.background-text::before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(1px);
+  z-index: -1;
+}
+
+input:hover,
+input:active,
+input:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
